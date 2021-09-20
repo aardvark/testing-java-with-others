@@ -35,7 +35,7 @@
           <execution>
             <id>clojure-test</id>
             <goals>
-              <goal>test</goal>
+              <goal>test-with-junit</goal>
             </goals>
             <phase>test</phase>
           </execution>
