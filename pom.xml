@@ -30,6 +30,7 @@
           <testSourceDirectories>
             <testSourceDirectory>src/test/clojure</testSourceDirectory>
           </testSourceDirectories>
+          <testScript>src/test/clojure/test_script.clj</testScript>
         </configuration>
         <executions>
           <execution>
