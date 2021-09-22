@@ -29,6 +29,15 @@
         <groupId>net.alchim31.maven</groupId>
         <artifactId>scala-maven-plugin</artifactId>
         <version>4.5.4</version>
+        <executions>
+          <execution>
+            <id>scala-testCompile</id>
+            <goals>
+              <goal>testCompile</goal>
+            </goals>
+            <phase>test-compile</phase>
+          </execution>
+        </executions>
       </plugin>
     </plugins>
   </build>
@@ -39,6 +48,11 @@
       <artifactId>junit-jupiter-engine</artifactId>
       <version>5.8.0-RC1</version>
       <scope>test</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.scala-lang</groupId>
+      <artifactId>scala-library</artifactId>
+      <version>2.13.6</version>
     </dependency>
   </dependencies>
 
