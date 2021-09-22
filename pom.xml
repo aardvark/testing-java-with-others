@@ -30,15 +30,15 @@
           <testSourceDirectories>
             <testSourceDirectory>src/test/clojure</testSourceDirectory>
           </testSourceDirectories>
-          <testScript>src/test/clojure/test_script.clj</testScript>
+<!--          <testScript>src/test/clojure/test_script.clj</testScript>-->
         </configuration>
         <executions>
           <execution>
-            <id>clojure-test</id>
+            <id>clojure-testCompile</id>
             <goals>
-              <goal>test-with-junit</goal>
+              <goal>testCompile</goal>
             </goals>
-            <phase>test</phase>
+            <phase>test-compile</phase>
           </execution>
         </executions>
         <dependencies>
